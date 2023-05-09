@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: SpringTestExemple
+server:
+  port: 8083
+foo-config:
+  name: ENC(Iu15Q6iUej0d16BEBVsilw==)
+  aliases:
+    - ENC(XqoSnlFykIrLGBIO6HDwng==)
+    - xyz
+  Duyo:
+    name: jean
+    prename: kokkou
+logstash:
+  destination: localhost:5000
+jasypt:
+  encryptor:
+    algorithm: PBEWithMD5AndTripleDES
+    iv-generator-classname: org.jasypt.iv.NoIvGenerator
+    password: toto2

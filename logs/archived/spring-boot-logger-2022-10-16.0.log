@@ -1,0 +1,20 @@
+2022-10-16 00:14:04,369 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-1] Start expire sessions StandardManager at 1665872044369 sessioncount 0
+2022-10-16 00:14:05,646 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-1] End expire sessions StandardManager processingTime 1277 expired sessions: 0
+2022-10-16 00:14:22,447 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: accepted socket from [127.0.0.1:63295]
+2022-10-16 00:14:22,454 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: (port 60834) op = 80
+2022-10-16 00:14:22,459 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6a1d370e
+2022-10-16 00:14:22,460 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6a1d370e
+2022-10-16 00:14:22,461 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6a1d370e
+2022-10-16 00:14:22,461 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6a1d370e
+2022-10-16 00:14:22,462 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6a1d370e
+2022-10-16 00:14:27,953 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: (port 60834) op = 82
+2022-10-16 00:14:27,953 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: (port 60834) op = 80
+2022-10-16 00:14:27,955 DEBUG sun.util.logging.internal.LoggingProviderImpl$JULWrapper [RMI TCP Connection(663)-127.0.0.1] connectionId=rmi://127.0.0.1  1
+2022-10-16 00:14:52,486 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: (port 60834) connection closed
+2022-10-16 00:14:52,487 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: close connection, socket: Socket[addr=/127.0.0.1,port=63295,localport=60834]
+2022-10-16 00:14:52,489 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(663)-127.0.0.1] RMI TCP Connection(663)-127.0.0.1: socket close: Socket[addr=/127.0.0.1,port=63295,localport=60834]
+2022-10-16 00:15:05,697 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-1] Start expire sessions StandardManager at 1665872105697 sessioncount 0
+2022-10-16 00:15:05,698 DEBUG org.apache.juli.logging.DirectJDKLog [Catalina-utility-1] End expire sessions StandardManager processingTime 1 expired sessions: 0
+2022-10-16 00:15:27,964 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(664)-127.0.0.1] RMI TCP Connection(664)-127.0.0.1: accepted socket from [127.0.0.1:63356]
+2022-10-16 00:15:27,970 DEBUG sun.rmi.runtime.Log$LoggerLog [RMI TCP Connection(664)-127.0.0.1] RMI TCP Connection(664)-127.0.0.1: (port 60834) op = 80
+2022-10-16 00:15:27,971 DEBUG sun.util.logging.internal.LoggingProviderImpl$JULWrapper [RMI TCP Connection(664)-127.0.0.1] connectionId=rmi://127.0.0.1  1

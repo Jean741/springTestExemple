@@ -1,0 +1,3 @@
+FROM openjdk:11
+COPY /mai nh
+WORKDIR /the/workdir/path

@@ -1,0 +1,35 @@
+version: '3.7'
+name: myDevApp
+
+services:
+  myDev-elasticsearch:
+    image: elasticsearch:7.16.2
+    ports:
+      - 9200:9200
+    environment:
+      - discovery.type=single-node
+#    volumes:
+#      - myDev-data-elasticsearch: /usr/share/elasticsearch/data
+
+  myDev-kibana:
+    image: kibana:7.9.2
+    environment:
+      - ELASTICSEARCH_HOSTS=http://myDev-elasticsearch:9200
+    ports:
+      - '5601:5601'
+    depends_on:
+      - myDev-elasticsearch
+
+  myDev-logstash:
+    image: logstash:8.3.1
+    ports:
+      - '5000:5000'
+    depends_on:
+      - myDev-elasticsearch
+    volumes:
+      - type: bind
+        source: ./logstash_pipeline/
+        target: /usr/share/logstash/pipeline
+        read_only: true
+#volumes:
+#  myDev-data-elasticsearch: /usr/share/elasticsearch/data
